@@ -1,4 +1,5 @@
 **Projeto**
+
 Este projeto é um pipeline completo de processamento fotogramétrico utilizando o Agisoft Metashape 2.1.
 O objetivo é automatizar o fluxo de trabalho para imagens aéreas oblíquas sem georreferenciamento direto, utilizando pontos de controle (GCPs) para corrigir a orientação e gerar:
 
@@ -28,6 +29,7 @@ Exportação automática dos produtos finais
 Tratamento de erros e validações básicas
 
 **Estrutura Esperada**
+
 /caminho/para/imagens/
     - foto1.jpg
     - foto2.jpg
@@ -45,6 +47,7 @@ Ponto02      123460.00     9876547.00    501.00
 (Separados apenas por espaço, sem ponto e vírgula)
 
 **Requisitos**
+
 Agisoft Metashape Professional 2.1 (ou superior)
 
 Python 3.x (já integrado no Metashape)
@@ -58,6 +61,7 @@ Licença válida do Metashape
 2) Edite o script:
 
 Atualize as seguintes variáveis no início do código:
+
 PHOTOS_PATH = "caminho/para/imagens"
 GCP_FILE = "caminho/para/gcps.txt"
 OUTPUT_FOLDER = "caminho/para/saida"
