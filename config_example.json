@@ -1,0 +1,6 @@
+{
+    "PHOTOS_PATH": "G:/meus_dados/projeto_fotos/imagens",
+    "GCP_FILE": "G:/meus_dados/projeto_fotos/gcps.txt",
+    "OUTPUT_FOLDER": "G:/meus_dados/projeto_fotos/saida",
+    "COORDINATE_SYSTEM": "EPSG:31983"
+}
