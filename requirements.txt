@@ -1,0 +1,7 @@
+# Este requirements.txt é ilustrativo.
+# O Metashape Professional já vem com Python embutido e não requer instalação via pip.
+
+agisoft-metashape>=2.1.0  # Disponível somente com instalação via site oficial da Agisoft
+
+# Outras bibliotecas padrão usadas no script:
+os
